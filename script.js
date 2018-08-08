@@ -42,10 +42,10 @@ tracker.on('track', (event) => {
   context.clearRect(0, 0, canvas.width, canvas.height);
 
   // print no face
-  //   result.innerHTML = 'No Face';
+     result.innerHTML = 'No Face';
 
   event.data.forEach((rect) => {
-    // result.innerHTML = 'Face !!!';
+     result.innerHTML = 'Face !!!';
 
     // 8. add image
     context.drawImage(
