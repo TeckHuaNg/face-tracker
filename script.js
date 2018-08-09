@@ -5,7 +5,7 @@ const tracker = new tracking.ObjectTracker('face');
 // create canvas
 const canvas = document.getElementById('canvas');
 const context = canvas.getContext('2d');
-console.log(context);
+
 
 const result = document.getElementById('result'); // ask how to get element
 
